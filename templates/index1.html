@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+	<meta charset='UTF-8'>
+	<title>ASR</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='css/style.css') }}">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+
+	<div class="d-flex flex-column align-items-center" id='beforeResult'>
+		<p class="display-4 mb-3">SAMSKRUTA &nbspASR</p>
+
+		<div class="audio-player">
+			<audio class="my-3" id="player" controls></audio>
+			<a id="download" download='file.wav'>Download</a>
+		</div>
+		<div>
+			<button class="btn btn-primary" id="start" type="button">Start</button>
+			<button class="btn btn-primary" id="stop" type="button">Stop</button>
+		</div>
+
+
+		<p class="text-muted" id="status">Click on start to record.</p>
+
+		<h4 class="transcript">Transcript:</h4>
+		<h3 class="transcript" id='p1'></h3>
+
+		<script type="text/javascript" src="{{ url_for('static',filename='js/asr.js')}}"></script>
+		<!-- <script type="text/javascript" src="{{ url_for('static', filename='jquery.js') }}"></script> -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"></script>
+	</div>
+
+
+</body>
+
+</html>

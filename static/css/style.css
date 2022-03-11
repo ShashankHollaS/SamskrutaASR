@@ -1,0 +1,20 @@
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.transcript {
+    display: none;
+}
+
+.audio-player {
+    position: relative;
+}
+
+#download {
+    font-size: 0.8em;
+    position: absolute;
+    top:75px;
+    left: 235px;
+}
