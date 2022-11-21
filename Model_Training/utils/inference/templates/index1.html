@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='UTF-8'>
+    <title>ASR</title>
+</head>
+<body>
+
+<div id='beforeResult'>
+	<h2>SAMSKRUTA ASR</h2>
+	
+	<button id="start" type="button">Start</button>
+	<button id="stop" type="button">Stop</button>
+	
+      
+	<p id="status">Click on start to record.</p>
+      
+	<audio id="player" controls></audio>
+       
+	<a id="download" download='file.wav'>Download</a>
+       
+	<h1>Transcript</h1>
+	<p id ='p1'> {{transcript}}</p>
+	
+	
+	<script type="text/javascript" src="{{ url_for('static',filename='js/asr.js')}}"></script>
+	<script type="text/javascript" src="{{ url_for('static', filename='jquery.js') }}"></script>
+</div>
+
+
+</body>
+</html>
