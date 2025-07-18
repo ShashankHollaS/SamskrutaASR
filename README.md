@@ -38,12 +38,12 @@ So, along with skills mentioned in the previous section, you can learn,
 
 I have referred work done by vakyansh team for training the model. - https://github.com/Open-Speech-EkStep/vakyansh-wav2vec2-experimentation/tree/ieee
 
-Link for the trained model: https://drive.google.com/file/d/1Sa9WCXOE7VHcob4fyB0tzekOD-OfOz-9/view?usp=sharing
+Link for the trained model: https://drive.google.com/file/d/1Sa9WCXOE7VHcob4fyB0tzekOD-OfOz-9/view?usp=sharing 
 
 
 ### **2. Flask Application:**
 
-Link to the application : https://asr.sambhasha.ksu.ac.in
+Link to the application : https://asr.sambhasha.ksu.ac.in (Not live now)
 
 Following files/folders are involved: 
 1. app.py - Main python file
