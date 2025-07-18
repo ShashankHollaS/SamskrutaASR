@@ -8,7 +8,7 @@ This project has two parts.
    
 <br>
 
-### **Skills you can gain by doing this Project:** *(Its a better way of writing 'Prerequisites', as 'Learn while doing a Project' is better than 'Learn and then do a Project')*
+### **Skills you can gain by doing this Project:** 
 <br>
 
 #### **Without Deep Learning:**
